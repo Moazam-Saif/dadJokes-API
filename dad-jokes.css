@@ -1,0 +1,54 @@
+body {
+    background-color: white; /* Dark background */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* White background */
+    padding: 20px 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center;
+    max-width: 400px;
+  }
+  .top-bar{
+    padding: 2%;
+    font-size: 3rem;
+    text-align: center;
+    height: 12vh;
+    position:absolute;
+    top:0px;
+    width:90%;
+    border-radius: 30%;
+    background-color:#deff08 ;
+  }
+  
+  .jokes-container {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555; /* Slightly lighter text */
+  }
+  
+  .joke-button {
+    background-color: #f4e04d; /* Yellow button */
+    color: #000; /* Black text */
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .joke-button:hover {
+    background-color: #e6c923; /* Darker yellow on hover */
+  }
+  
